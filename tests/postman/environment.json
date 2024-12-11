@@ -1,0 +1,14 @@
+{
+	"id": "f69edaf8-6959-4791-82ac-8bf55ebd8b15",
+	"name": "Library System",
+	"values": [
+		{
+			"key": "baseUrl",
+			"value": "http://localhost:8080",
+			"enabled": true
+		}
+	],
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2024-12-11T23:09:39.226Z",
+	"_postman_exported_using": "Postman/11.1.14"
+}
