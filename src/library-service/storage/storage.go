@@ -37,11 +37,6 @@ type BookInfo struct {
 }
 
 type Storage interface {
-	// Insert(e *Person)
-	// Get(id int) (Person, error)
-	// Update(e *Person) error
-	// Delete(id int) error
-	// GetAll() []Person
 	GetLibrariesByCity(ctx context.Context, city string) ([]Library, error)
 	GetBooksByLibraryUid(ctx context.Context, libraryUid string, showAll bool) ([]Book, error)
 	GetBookByUid(ctx context.Context, bookUid string) (Book, error)
