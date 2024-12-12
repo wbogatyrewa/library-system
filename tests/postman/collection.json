@@ -1,9 +1,9 @@
 {
 	"info": {
-		"_postman_id": "608b08a0-890d-482a-bc2f-3be167c8a92d",
+		"_postman_id": "e2153718-7ee9-4ccc-9c19-3054e97bc229",
 		"name": "Library System",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "26740752"
+		"_exporter_id": "26782703"
 	},
 	"item": [
 		{
@@ -259,7 +259,8 @@
 									"    pm.collectionVariables.set(\"stars\", response.stars)",
 									"})"
 								],
-								"type": "text/javascript"
+								"type": "text/javascript",
+								"packages": {}
 							}
 						}
 					],
@@ -270,6 +271,11 @@
 								"key": "X-User-Name",
 								"value": "{{username}}",
 								"description": "Имя пользователя"
+							},
+							{
+								"key": "X-Authorization",
+								"value": "admin",
+								"type": "text"
 							}
 						],
 						"url": {
@@ -481,7 +487,8 @@
 									"    pm.expect(reservation.library.address).to.be.eq(\"2-я Бауманская ул., д.5, стр.1\")",
 									"})"
 								],
-								"type": "text/javascript"
+								"type": "text/javascript",
+								"packages": {}
 							}
 						}
 					],
@@ -492,6 +499,11 @@
 								"key": "X-User-Name",
 								"value": "{{username}}",
 								"description": "Имя пользователя"
+							},
+							{
+								"key": "X-Authorization",
+								"value": "admin",
+								"type": "text"
 							}
 						],
 						"url": {
@@ -555,7 +567,8 @@
 									"    pm.response.to.have.status(204)",
 									"})"
 								],
-								"type": "text/javascript"
+								"type": "text/javascript",
+								"packages": {}
 							}
 						}
 					],
@@ -570,6 +583,11 @@
 							{
 								"key": "Content-Type",
 								"value": "application/json"
+							},
+							{
+								"key": "X-Authorization",
+								"value": "admin",
+								"type": "text"
 							}
 						],
 						"body": {
@@ -663,7 +681,8 @@
 									"    pm.expect(response.stars).to.be.eq(stars + 1)",
 									"})"
 								],
-								"type": "text/javascript"
+								"type": "text/javascript",
+								"packages": {}
 							}
 						}
 					],
@@ -674,6 +693,11 @@
 								"key": "X-User-Name",
 								"value": "{{username}}",
 								"description": "Имя пользователя"
+							},
+							{
+								"key": "X-Authorization",
+								"value": "admin",
+								"type": "text"
 							}
 						],
 						"url": {
