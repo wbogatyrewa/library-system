@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"lab2/src/library-service/handler"
-	"lab2/src/library-service/storage"
+	"library-system/src/library-service/handler"
+	"library-system/src/library-service/storage"
 
 	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"

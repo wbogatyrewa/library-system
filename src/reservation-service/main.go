@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"lab2/src/reservation-service/handler"
-	"lab2/src/reservation-service/storage"
+	"library-system/src/reservation-service/handler"
+	"library-system/src/reservation-service/storage"
 
 	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"

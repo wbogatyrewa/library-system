@@ -1,4 +1,4 @@
-module lab2
+module library-system
 
 go 1.21.1
 

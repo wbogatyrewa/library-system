@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"lab2/src/rating-service/handler"
-	"lab2/src/rating-service/storage"
+	"library-system/src/rating-service/handler"
+	"library-system/src/rating-service/storage"
 
 	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"

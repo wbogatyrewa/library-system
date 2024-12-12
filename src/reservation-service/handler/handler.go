@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"time"
 
-	"lab2/src/reservation-service/storage"
+	"library-system/src/reservation-service/storage"
 
 	"github.com/gin-gonic/gin"
 )

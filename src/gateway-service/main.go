@@ -1,7 +1,7 @@
 package main
 
 import (
-	"lab2/src/gateway-service/handler"
+	"library-system/src/gateway-service/handler"
 
 	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"

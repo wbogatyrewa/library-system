@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"strconv"
 
-	"lab2/src/library-service/storage"
+	"library-system/src/library-service/storage"
 
 	"github.com/gin-gonic/gin"
 )
